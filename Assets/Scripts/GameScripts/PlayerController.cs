@@ -26,6 +26,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject DestroyedPlayer;
     [SerializeField] private GameObject PlayerSprite;
     [SerializeField] private GameObject[] DestroyedParticles;
+    [SerializeField] private GameObject DustParticals;
+
     private float randomForceStrength = 3f;
 
     void Start()
@@ -85,6 +87,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
+            DustParticals.SetActive(true);
             // StartCoroutine(SmoothAlignToNearestEdge());
         }
         else if (collision.gameObject.CompareTag("Obstacle"))
@@ -106,6 +109,15 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(gameManager.GameOver());
         }
         
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            //isGrounded = true;
+            DustParticals.SetActive(false);
+            // StartCoroutine(SmoothAlignToNearestEdge());
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -1,0 +1,865 @@
+fileFormatVersion: 2
+guid: 0ed33b15420f2404e8971726212cb7f3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: geometry_dash_main_0
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1972
+        width: 335
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c42694d24954827a1f4777d1354576
+      internalID: -924452996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_1
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 2051
+        width: 616
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf158072641e419bb28c480534183c7
+      internalID: -807249844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_2
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1899
+        width: 589
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523f31ef08cbe48b2938b2eb3dd4accd
+      internalID: -872649184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_3
+      rect:
+        serializedVersion: 2
+        x: 2724
+        y: 1899
+        width: 594
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3615180bf7bc84ae59a5b05eab1056c9
+      internalID: -1905313133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_4
+      rect:
+        serializedVersion: 2
+        x: 3596
+        y: 1409
+        width: 588
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bc61e2eebe4437497708f7af88eac6
+      internalID: 1637870358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_5
+      rect:
+        serializedVersion: 2
+        x: 4470
+        y: 2142
+        width: 215
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c49c14c3f00942a9bfff1d3c5ace85e
+      internalID: 2087314511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_6
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1596
+        width: 359
+        height: 328
+      alignment: 9
+      pivot: {x: 0.5157679, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71901a6e7ed48442ba58eb096f40de2e
+      internalID: 918363005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_7
+      rect:
+        serializedVersion: 2
+        x: 4394
+        y: 1890
+        width: 165
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063c38a8e0d9446f1859301fc22e4592
+      internalID: 467111431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_8
+      rect:
+        serializedVersion: 2
+        x: 4597
+        y: 1888
+        width: 162
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d343a93caa434b85a0708619127f9c7
+      internalID: 1821578667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_9
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1656
+        width: 620
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0d2d776d72c428a8f36bebeb2ac6f2
+      internalID: -359475076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_10
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1301
+        width: 597
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8cee91af5224fb69bd598aa467a4fe
+      internalID: 1172552194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_11
+      rect:
+        serializedVersion: 2
+        x: 2724
+        y: 1292
+        width: 594
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143acc156e6cd482b89d291da1fbc735
+      internalID: 259366606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_12
+      rect:
+        serializedVersion: 2
+        x: 4384
+        y: 1716
+        width: 160
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973bf144dc8324097a04b86905d310d1
+      internalID: -528653069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_13
+      rect:
+        serializedVersion: 2
+        x: 4617
+        y: 1727
+        width: 169
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8aed614c2da14cb68398694bdb16679
+      internalID: 845391781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_14
+      rect:
+        serializedVersion: 2
+        x: 4393
+        y: 1546
+        width: 146
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07690f9f87264017845f8b0f9c179bf
+      internalID: 217775818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_15
+      rect:
+        serializedVersion: 2
+        x: 4617
+        y: 1559
+        width: 144
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e93fbabd891245b892981cb8aae51f8
+      internalID: 1845794193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_16
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1193
+        width: 357
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fe0aae1067440089445ef8b5e6e104
+      internalID: -771027552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_17
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1265
+        width: 618
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdd08fc2d8544111bc05a756b69eb77
+      internalID: 387007339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_18
+      rect:
+        serializedVersion: 2
+        x: 4394
+        y: 1364
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced608adc0e11463bb04ebc532d1a592
+      internalID: -231686484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_19
+      rect:
+        serializedVersion: 2
+        x: 4611
+        y: 1361
+        width: 150
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b1591bff4284b4ba61696e216d8f4f
+      internalID: 2039701851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_20
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 793
+        width: 359
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b195c740225475bb79c9e632ff3a87
+      internalID: 1832602718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_21
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 872
+        width: 616
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b0f01e14c444309a4880f90198f0b2
+      internalID: -626374390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_22
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 725
+        width: 602
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1fbf4168adb41de99ddf83225c29cb
+      internalID: 856729425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_23
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 725
+        width: 593
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf07206b1097648b6a6789004d40555f
+      internalID: 1558035543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_24
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 1035
+        width: 620
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7bebe9ed8d04de78bbe02362c55c43
+      internalID: -1470237624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_25
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 770
+        width: 620
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ca630b52eae4275bebf384a0147145
+      internalID: -852022765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_31
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 469
+        width: 620
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06d0772e094b4d31b3de993382339f1
+      internalID: -1512641413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_36
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 241
+        width: 393
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83123561434f24712aa77e11acf91a4a
+      internalID: 1436136460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_41
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 138
+        width: 596
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678ed978e6fea4626908242decf70f8c
+      internalID: 1618493632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_42
+      rect:
+        serializedVersion: 2
+        x: 2724
+        y: 139
+        width: 594
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f36a1adb009f473fa931bb447191a8c
+      internalID: -1426599255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_43
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 181
+        width: 620
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399378e56515b4480b269febdb60e279
+      internalID: -1309516220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: geometry_dash_main_26
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 245
+        width: 388
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdf33afd41514331ac7d38566ee876f
+      internalID: 1396298291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      geometry_dash_main_0: -924452996
+      geometry_dash_main_1: -807249844
+      geometry_dash_main_10: 1172552194
+      geometry_dash_main_11: 259366606
+      geometry_dash_main_12: -528653069
+      geometry_dash_main_13: 845391781
+      geometry_dash_main_14: 217775818
+      geometry_dash_main_15: 1845794193
+      geometry_dash_main_16: -771027552
+      geometry_dash_main_17: 387007339
+      geometry_dash_main_18: -231686484
+      geometry_dash_main_19: 2039701851
+      geometry_dash_main_2: -872649184
+      geometry_dash_main_20: 1832602718
+      geometry_dash_main_21: -626374390
+      geometry_dash_main_22: 856729425
+      geometry_dash_main_23: 1558035543
+      geometry_dash_main_24: -1470237624
+      geometry_dash_main_25: -852022765
+      geometry_dash_main_26: 1396298291
+      geometry_dash_main_27: 2115446753
+      geometry_dash_main_28: 1894368265
+      geometry_dash_main_29: -37555542
+      geometry_dash_main_3: -1905313133
+      geometry_dash_main_30: 1067266609
+      geometry_dash_main_31: -1512641413
+      geometry_dash_main_32: 1550965706
+      geometry_dash_main_33: -535240018
+      geometry_dash_main_34: -1386928373
+      geometry_dash_main_35: -1127867005
+      geometry_dash_main_36: 1436136460
+      geometry_dash_main_37: -2095871800
+      geometry_dash_main_38: 1532656119
+      geometry_dash_main_39: -523429383
+      geometry_dash_main_4: 1637870358
+      geometry_dash_main_40: -893505039
+      geometry_dash_main_41: 1618493632
+      geometry_dash_main_42: -1426599255
+      geometry_dash_main_43: -1309516220
+      geometry_dash_main_44: 899860953
+      geometry_dash_main_45: -1167958680
+      geometry_dash_main_46: 562986937
+      geometry_dash_main_47: 1978440277
+      geometry_dash_main_48: 491240234
+      geometry_dash_main_49: 1605789494
+      geometry_dash_main_5: 2087314511
+      geometry_dash_main_50: -1698910951
+      geometry_dash_main_51: -2128532765
+      geometry_dash_main_52: 624843678
+      geometry_dash_main_6: 918363005
+      geometry_dash_main_7: 467111431
+      geometry_dash_main_8: 1821578667
+      geometry_dash_main_9: -359475076
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

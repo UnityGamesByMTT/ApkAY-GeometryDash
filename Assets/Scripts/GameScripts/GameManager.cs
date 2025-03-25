@@ -78,6 +78,6 @@ public class GameManager : MonoBehaviour
     internal IEnumerator  GameOver()
     {
         yield return new WaitForSeconds(0.9F);
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
