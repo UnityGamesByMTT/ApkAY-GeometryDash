@@ -11,9 +11,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Sprite[] ProgressBarSprites;
     [SerializeField] private Image ProgressBar;
     [SerializeField] private Button StartButton;
+    [SerializeField] private Button LevCompButton;
     [SerializeField] private Button ExitButton;
     [SerializeField] private GameObject StartPanel;
     [SerializeField] private TMP_Text DiamondCount;
+    [Space]
+    [Header(" UI Panels")]
+    [SerializeField] private GameObject WinPanel;
 
     [Header("BG")]
     [SerializeField] private GameObject BG;
@@ -23,6 +27,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject player;
 
     private int diamondCount = 20;
+    private bool LevComp = false;
 
     private void Awake()
     {
@@ -33,36 +38,58 @@ public class GameManager : MonoBehaviour
         if (ExitButton) ExitButton.onClick.AddListener(()=> { SceneManager.LoadScene("MainScene"); });
         Time.timeScale = 0;
         if (StartButton) StartButton.onClick.RemoveAllListeners();
-        if (StartButton) StartButton.onClick.AddListener(()=> { Time.timeScale = 1; StartPanel.SetActive(false); StartCoroutine(SquishText(DiamondCount, x)); });
+        if (StartButton) StartButton.onClick.AddListener(()=> {
+            
+           
+                Time.timeScale = 1;
+                StartPanel.SetActive(false);
+                StartCoroutine(SquishText(DiamondCount, x));
+            
 
+        });
+        if (LevCompButton) LevCompButton.onClick.RemoveAllListeners();
+        if (LevCompButton) LevCompButton.onClick.AddListener(() => {
+            
+                SceneManager.LoadScene("MainScene");
+           
+
+        });
     }
 
-    public IEnumerator SquishText(TMP_Text textMesh,int Diamond, float squishDuration =0.1f, float squishAmount =0.7f)
+    public IEnumerator SquishText(TMP_Text textMesh, int diamond, float squishDuration = 0.1f, float squishAmount = 0.7f)
     {
-        PlayerPrefs.SetInt("Diamonds", Diamond);
-        textMesh.text = Diamond.ToString();
-        Vector3 originalScale = textMesh.transform.localScale;
-        Vector3 squishedScale = new Vector3(originalScale.x + squishAmount, originalScale.y - squishAmount, originalScale.z);
+        PlayerPrefs.SetInt("Diamonds", diamond);
+        textMesh.text = diamond.ToString();
+
+        Vector3 startScale = Vector3.one;
+        Vector3 squishedScale = new Vector3(1 + squishAmount, 1 - squishAmount, 1);
 
         // Squish
         float elapsedTime = 0f;
         while (elapsedTime < squishDuration)
         {
-            textMesh.transform.localScale = Vector3.Lerp(originalScale, squishedScale, elapsedTime / squishDuration);
+            textMesh.transform.localScale = Vector3.Lerp(startScale, squishedScale, elapsedTime / squishDuration);
             elapsedTime += Time.deltaTime;
             yield return null;
         }
 
-        // Expand back
+        // Expand back to (1,1,1)
         elapsedTime = 0f;
         while (elapsedTime < squishDuration)
         {
-            textMesh.transform.localScale = Vector3.Lerp(squishedScale, originalScale, elapsedTime / squishDuration);
+            textMesh.transform.localScale = Vector3.Lerp(squishedScale, startScale, elapsedTime / squishDuration);
             elapsedTime += Time.deltaTime;
             yield return null;
         }
 
-        textMesh.transform.localScale = originalScale;
+        textMesh.transform.localScale = startScale;
+    }
+
+    internal void LevelComplete()
+    {
+        WinPanel.SetActive(true);
+        LevComp = true;
+        Time.timeScale = 0;
     }
 
     private void Update()

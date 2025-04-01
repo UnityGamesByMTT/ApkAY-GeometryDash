@@ -24,7 +24,7 @@ public class MainSceneManager : MonoBehaviour
     {
         if (PlayBtn) PlayBtn.onClick.RemoveAllListeners();
         if (PlayBtn) PlayBtn.onClick.AddListener(() => {
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("Lev1");
         });
 
         if (ShopBtn) ShopBtn.onClick.RemoveAllListeners();

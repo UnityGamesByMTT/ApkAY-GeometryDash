@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private CameraController cameraController;
     [SerializeField] private GameManager gameManager;
     [SerializeField] private Animator SquareAnim;
+    
 
     [Space]
     public float jumpForce = 10f;
@@ -46,42 +47,45 @@ public class PlayerController : MonoBehaviour
 
             if (isScreenHeld && isGrounded)
             {
-                isGrounded = false;
-                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-                if (!GravityInverse)
-                {
-                    if (isUpdideDown)
-                    {
-                        isUpdideDown = false;
-                        SquareAnim.Play("Clip2");
-                    }
-                    else
-                    {
-                        isUpdideDown = true;
-                        SquareAnim.Play("Clip1");
-
-                    }
-                }
-                else
-                {
-                    if (isUpdideDown)
-                    {
-                        isUpdideDown = false;
-                        SquareAnim.Play("Clop3");
-                    }
-                    else
-                    {
-                        isUpdideDown = true;
-                        SquareAnim.Play("Clip4");
-
-                    }
-                }
-                jumpStartY = transform.position.y;
+                JumpAction();
             }
         }
     }
 
+    void JumpAction()
+    {
+        isGrounded = false;
+        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        if (!GravityInverse)
+        {
+            if (isUpdideDown)
+            {
+                isUpdideDown = false;
+                SquareAnim.Play("Clip2");
+            }
+            else
+            {
+                isUpdideDown = true;
+                SquareAnim.Play("Clip1");
 
+            }
+        }
+        else
+        {
+            if (isUpdideDown)
+            {
+                isUpdideDown = false;
+                SquareAnim.Play("Clop3");
+            }
+            else
+            {
+                isUpdideDown = true;
+                SquareAnim.Play("Clip4");
+
+            }
+        }
+        jumpStartY = transform.position.y;
+    }
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
@@ -130,6 +134,16 @@ public class PlayerController : MonoBehaviour
                 rb.gravityScale *= -1;
                 jumpForce *= -1;
             }
+        }
+        if(collision.gameObject.CompareTag("End"))
+        {
+            gameManager.LevelComplete();
+        }
+        if(collision.gameObject.CompareTag("Jump"))
+        {
+            jumpForce *= 1.5f;
+            JumpAction();
+            jumpForce /= 1.5f;
         }
     }
 

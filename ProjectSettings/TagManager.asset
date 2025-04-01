@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Obstacle
   - Gravity
+  - End
+  - Jump
   layers:
   - Default
   - TransparentFX
