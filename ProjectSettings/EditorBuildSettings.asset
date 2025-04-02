@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Lev2.unity
     guid: 4406c39bcfdeb41ff8c0e343fd11003f
   - enabled: 1
+    path: Assets/Scenes/Lev3.unity
+    guid: 7a14ff6cd74b24e8b8b3d5337a2c3fe3
+  - enabled: 1
+    path: Assets/Scenes/Lev4.unity
+    guid: 5bcf9966e7d6b4a6093d55d1ab9b9631
+  - enabled: 0
     path: Assets/Scenes/GameScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

@@ -9,6 +9,7 @@ TagManager:
   - Gravity
   - End
   - Jump
+  - NegativeJump
   layers:
   - Default
   - TransparentFX

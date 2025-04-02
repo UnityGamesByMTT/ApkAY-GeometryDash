@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TMP_Text DiamondCount;
     [Space]
     [Header(" UI Panels")]
+    [SerializeField] private GameObject CanvasP;
     [SerializeField] private GameObject WinPanel;
 
     [Header("BG")]
@@ -31,12 +32,13 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if(PlayerPrefs.GetInt("Diamonds")== 0) PlayerPrefs.SetInt("Diamonds", diamondCount); ;
+        CanvasP.SetActive(true);
+        if (PlayerPrefs.GetInt("Diamonds")== 0) PlayerPrefs.SetInt("Diamonds", diamondCount); ;
         int x = PlayerPrefs.GetInt("Diamonds") - 1;
-        StartCoroutine(SquishText(DiamondCount, x+1));
         if (ExitButton) ExitButton.onClick.RemoveAllListeners();
         if (ExitButton) ExitButton.onClick.AddListener(()=> { SceneManager.LoadScene("MainScene"); });
         Time.timeScale = 0;
+        StartCoroutine(SquishText(DiamondCount, x+1));
         if (StartButton) StartButton.onClick.RemoveAllListeners();
         if (StartButton) StartButton.onClick.AddListener(()=> {
             

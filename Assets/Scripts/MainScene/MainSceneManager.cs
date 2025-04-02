@@ -19,12 +19,29 @@ public class MainSceneManager : MonoBehaviour
     [SerializeField] private GameObject ShopPage;
     [SerializeField] private Button ShopExitBtn;
 
+    [Header("LevelPage")]
+    [SerializeField] private Button LEv1;
+    [SerializeField] private Button Lev2;
+    [SerializeField] private Button Lev3;
+    [SerializeField] private Button Lev4;
+
+
+    private int LastPlayed;
 
     private void Start()
     {
         if (PlayBtn) PlayBtn.onClick.RemoveAllListeners();
         if (PlayBtn) PlayBtn.onClick.AddListener(() => {
-            SceneManager.LoadScene("Lev1");
+            if (PlayerPrefs.GetInt("LastLev") == 0)
+            {
+                SceneManager.LoadScene("Lev1");
+            }
+            else
+            {
+                SceneManager.LoadScene("Lev"+ PlayerPrefs.GetInt("LastLev").ToString());
+
+            }
+
         });
 
         if (ShopBtn) ShopBtn.onClick.RemoveAllListeners();
@@ -45,6 +62,28 @@ public class MainSceneManager : MonoBehaviour
         if (ShopExitBtn) ShopExitBtn.onClick.RemoveAllListeners();
         if (ShopExitBtn) ShopExitBtn.onClick.AddListener(() => {
             ShopPage.SetActive(false);
+        });
+
+        if (LEv1) LEv1.onClick.RemoveAllListeners();
+        if (LEv1) LEv1.onClick.AddListener(() => {
+            PlayerPrefs.SetInt("LastLev", 1);
+            SceneManager.LoadScene("Lev1");
+        });
+
+        if (Lev2) Lev2.onClick.RemoveAllListeners();
+        if (Lev2) Lev2.onClick.AddListener(() => {
+            PlayerPrefs.SetInt("LastLev", 2);
+            SceneManager.LoadScene("Lev2");
+        });
+        if (Lev3) Lev3.onClick.RemoveAllListeners();
+        if (Lev3) Lev3.onClick.AddListener(() => {
+            PlayerPrefs.SetInt("LastLev", 3);
+            SceneManager.LoadScene("Lev3");
+        });
+        if (Lev4) Lev4.onClick.RemoveAllListeners();
+        if (Lev4) Lev4.onClick.AddListener(() => {
+            PlayerPrefs.SetInt("LastLev", 4);
+            SceneManager.LoadScene("Lev4");
         });
     }
 }

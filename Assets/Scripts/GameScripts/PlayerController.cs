@@ -134,6 +134,12 @@ public class PlayerController : MonoBehaviour
                 rb.gravityScale *= -1;
                 jumpForce *= -1;
             }
+            else
+            {
+                GravityInverse = false;
+                rb.gravityScale *= -1;
+                jumpForce *= -1;
+            }
         }
         if(collision.gameObject.CompareTag("End"))
         {
@@ -141,9 +147,20 @@ public class PlayerController : MonoBehaviour
         }
         if(collision.gameObject.CompareTag("Jump"))
         {
-            jumpForce *= 1.5f;
-            JumpAction();
-            jumpForce /= 1.5f;
+            
+                jumpForce *= 1.5f;
+                JumpAction();
+                jumpForce /= 1.5f;
+            
+        }
+        if (collision.gameObject.CompareTag("NegativeJump"))
+        {
+            
+            
+                jumpForce *= -1.5f;
+                JumpAction();
+                jumpForce /= -1.5f;
+            
         }
     }
 
