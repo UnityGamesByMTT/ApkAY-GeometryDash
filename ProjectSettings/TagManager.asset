@@ -10,6 +10,8 @@ TagManager:
   - End
   - Jump
   - NegativeJump
+  - FakeJump
+  - JumpGain
   layers:
   - Default
   - TransparentFX

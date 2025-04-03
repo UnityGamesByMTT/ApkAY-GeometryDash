@@ -145,9 +145,18 @@ public class PlayerController : MonoBehaviour
         {
             gameManager.LevelComplete();
         }
-        if(collision.gameObject.CompareTag("Jump"))
+        if(collision.gameObject.CompareTag("FakeJump"))
+        {
+            isGrounded = false;
+        }
+        if (collision.gameObject.CompareTag("JumpGain"))
+        {
+            isGrounded = true;
+        }
+        if (collision.gameObject.CompareTag("Jump"))
         {
             
+                isGrounded = false;
                 jumpForce *= 1.5f;
                 JumpAction();
                 jumpForce /= 1.5f;
@@ -157,13 +166,20 @@ public class PlayerController : MonoBehaviour
         {
             
             
+                isGrounded = false;
                 jumpForce *= -1.5f;
                 JumpAction();
                 jumpForce /= -1.5f;
             
         }
     }
-
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("JumpGain"))
+        {
+            isGrounded = false;
+        }
+    }
     IEnumerator Destroyplayer(GameObject obj, float timex = 0.1f)
     {
         yield return new WaitForSeconds(timex);
