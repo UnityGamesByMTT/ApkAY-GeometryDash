@@ -12,6 +12,8 @@ TagManager:
   - NegativeJump
   - FakeJump
   - JumpGain
+  - Rocket
+  - Back
   layers:
   - Default
   - TransparentFX

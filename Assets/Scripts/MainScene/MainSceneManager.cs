@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+
 public class MainSceneManager : MonoBehaviour
 {
     [Header("HomePage")]
@@ -24,6 +25,8 @@ public class MainSceneManager : MonoBehaviour
     [SerializeField] private Button Lev2;
     [SerializeField] private Button Lev3;
     [SerializeField] private Button Lev4;
+    [SerializeField] private Button Lev5;
+    [SerializeField] private Button Lev6;
 
 
     private int LastPlayed;
@@ -84,6 +87,17 @@ public class MainSceneManager : MonoBehaviour
         if (Lev4) Lev4.onClick.AddListener(() => {
             PlayerPrefs.SetInt("LastLev", 4);
             SceneManager.LoadScene("Lev4");
+        });
+        if (Lev5) Lev5.onClick.RemoveAllListeners();
+        if (Lev5) Lev5.onClick.AddListener(() => {
+            PlayerPrefs.SetInt("LastLev", 5);
+            SceneManager.LoadScene("Lev5");
+        });
+
+        if (Lev6) Lev6.onClick.RemoveAllListeners();
+        if (Lev6) Lev6.onClick.AddListener(() => {
+            PlayerPrefs.SetInt("LastLev", 6);
+            SceneManager.LoadScene("Lev6");
         });
     }
 }

@@ -31,9 +31,9 @@ public class CameraController : MonoBehaviour
         transform.position = new Vector3(smoothX, offsetY, -10);
     }
 
-    public void StopCamera()
+    public void StopCamera(bool isStop)
     {
-        stopCamera = true;
+        stopCamera = isStop;
     }
 
     public void StartCameraShake()

@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     private bool isMoving = true;
     private bool isUpdideDown = false;
     private bool GravityInverse = false;
+    [SerializeField]private bool isRocket = false;
 
     [SerializeField] private BoxCollider2D MainCollider;
     [SerializeField] private GameObject DestroyedPlayer;
@@ -30,6 +31,18 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject DustParticals;
 
     private float randomForceStrength = 3f;
+
+    [Header("Rocket")]
+    [SerializeField] private GameObject Rocket;
+
+    [Header("AudioS")]
+    [SerializeField] AudioManager audioController;
+
+    [Header("NoobMode")]
+    public bool noobMode = false;
+    [SerializeField] private GameObject LastSafetransform;
+    private int jumpcount = 0;
+    private Vector3 lastSafepos;
 
     void Start()
     {
@@ -45,9 +58,13 @@ public class PlayerController : MonoBehaviour
 
             bool isScreenHeld = Input.GetKey(KeyCode.Space) || (Input.touchCount > 0 && Input.GetTouch(0).phase != TouchPhase.Ended);
 
-            if (isScreenHeld && isGrounded)
+            if (isScreenHeld && isGrounded && !isRocket)
             {
                 JumpAction();
+            }
+            else if(isScreenHeld && isRocket)
+            {
+                FlyAction();
             }
         }
     }
@@ -56,6 +73,7 @@ public class PlayerController : MonoBehaviour
     {
         isGrounded = false;
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        if(audioController)audioController.PlaySound("Jump");
         if (!GravityInverse)
         {
             if (isUpdideDown)
@@ -86,22 +104,47 @@ public class PlayerController : MonoBehaviour
         }
         jumpStartY = transform.position.y;
     }
+    void FlyAction()
+    {
+        rb.velocity = new Vector2(rb.velocity.x, jumpForce * 0.2f);
+    }
+    private void NoobMode(int count)
+    {
+        if (noobMode)
+        {
+            if (count % 4 == 0)
+            {
+                lastSafepos = gameObject.transform.position;
+
+            }
+            if (count % 5 == 0)
+            {
+                LastSafetransform.SetActive(true);
+                LastSafetransform.transform.position = lastSafepos;
+            }
+        }
+    }
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
+
+            jumpcount++;
+            NoobMode(jumpcount);
             isGrounded = true;
             DustParticals.SetActive(true);
             // StartCoroutine(SmoothAlignToNearestEdge());
         }
         else if (collision.gameObject.CompareTag("Obstacle"))
         {
+            if(audioController)audioController.PlaySound("Noob");
             isMoving = false;
             MainCollider.enabled = false;
             DestroyedPlayer.SetActive(true);
             PlayerSprite.SetActive(false);
-            cameraController.StopCamera();
+            cameraController.StopCamera(true);
             cameraController.StartCameraShake();
+            if (Rocket) Rocket.SetActive(false);
 
             foreach (var ob in DestroyedParticles)
             {
@@ -110,9 +153,29 @@ public class PlayerController : MonoBehaviour
                 rb.AddForce(randomForce, ForceMode2D.Impulse);
                 StartCoroutine(Destroyplayer(ob.gameObject, Random.Range(0.5f, 2f)));
             }
-            StartCoroutine(gameManager.GameOver());
+            if (!noobMode)
+            {
+                StartCoroutine(gameManager.GameOver());
+            }
+            else
+            {
+                gameObject.transform.position = LastSafetransform.transform.position;
+                StartCoroutine(RestartGame());
+            }
         }
         
+    }
+
+    IEnumerator RestartGame()
+    {
+        yield return new WaitForSeconds(0.5f);
+        isMoving = true;
+        MainCollider.enabled = true;
+        DestroyedPlayer.SetActive(false);
+        PlayerSprite.SetActive(true);
+        cameraController.StopCamera(false);
+       
+       // if (Rocket) Rocket.SetActive(true);
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
@@ -140,14 +203,25 @@ public class PlayerController : MonoBehaviour
                 rb.gravityScale *= -1;
                 jumpForce *= -1;
             }
+            if(isRocket)
+            {
+                gameObject.transform.localScale = new Vector3(gameObject.transform.localScale.x,transform.localScale.y*-1,transform.localScale.z);
+            }
         }
         if(collision.gameObject.CompareTag("End"))
         {
             gameManager.LevelComplete();
+            if(audioController)audioController.PlaySound("LecelComplete");
         }
         if(collision.gameObject.CompareTag("FakeJump"))
         {
             isGrounded = false;
+        }
+        if (collision.gameObject.CompareTag("Back"))
+        {
+            moveSpeed *= -1;
+            cameraController.offsetX *= -1;
+            DustParticals.transform.localScale = new Vector3(DustParticals.transform.localScale.x * -1, DustParticals.transform.localScale.y, DustParticals.transform.localScale.z);
         }
         if (collision.gameObject.CompareTag("JumpGain"))
         {
@@ -171,6 +245,25 @@ public class PlayerController : MonoBehaviour
                 JumpAction();
                 jumpForce /= -1.5f;
             
+        }
+        if (collision.gameObject.CompareTag("Rocket"))
+        {
+            if(isRocket)
+            {
+                isRocket = false;
+                Rocket.SetActive(false);
+                DustParticals.SetActive(true);
+                PlayerSprite.SetActive(true);
+                rb.gravityScale /= 0.3f;
+            }
+            else
+            {
+                isRocket = true;
+                Rocket.SetActive(true);
+                DustParticals.SetActive(false);
+                PlayerSprite.SetActive(false);
+                rb.gravityScale *= 0.3f;
+            }
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
