@@ -265,6 +265,10 @@ public class PlayerController : MonoBehaviour
                 rb.gravityScale *= 0.3f;
             }
         }
+        if(collision.gameObject.CompareTag("Circle"))
+        {
+
+        }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
