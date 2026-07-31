@@ -14,7 +14,7 @@ public class AudioManager : MonoBehaviour
 
     internal void PlaySound(string SoundName)
     {
-        switch(SoundName)
+        switch (SoundName)
         {
             case "Button":
                 Clip = Clips[0];
@@ -35,6 +35,6 @@ public class AudioManager : MonoBehaviour
         audioSource.PlayOneShot(Clip);
     }
 
-
+    // comit
 
 }
