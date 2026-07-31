@@ -1,0 +1,441 @@
+fileFormatVersion: 2
+guid: 92eea5cec009b4f1086ee8c380543d4d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robot level-01_2
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 799
+        width: 151
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5465ab2ea120cad418e3cec5979daafd
+      internalID: 625886911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot level-01_6
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 760
+        width: 199
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5c90d431b055345877a1a20e41e486
+      internalID: -766976852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot level-01_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 777
+        width: 263
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124491dd18e478c46826939dc269a031
+      internalID: -1377409826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot level-01_11
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 781
+        width: 212
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cf1dabb8a050747a2885f425a69857
+      internalID: -169891883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot level-01_13
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 747
+        width: 983
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c79d80786d4c9042931d89c01abeea2
+      internalID: -964346762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot level-01_39
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 453
+        width: 1029
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f814085fa1d80d46a272104dc6526f7
+      internalID: 1435922200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot level-01_43
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 452
+        width: 120
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1242d6216396904189fe973d039166b
+      internalID: -639767434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot level-01_44
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 456
+        width: 120
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38518f5cc012c544fa162942e57adf19
+      internalID: 2114426206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot level-01_45
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 387
+        width: 317
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec3e04e044a0d144860c252a1fa8c23
+      internalID: -325400927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot level-01_46
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 384
+        width: 329
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd233ad71eb77049901a3335e00de6d
+      internalID: -723035387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot level-01_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 109
+        width: 2340
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863d490c3e47c6a49999c31d38d75a27
+      internalID: 86293437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Robot level-01_0: -2117892240
+      Robot level-01_1: 2035406644
+      Robot level-01_10: 1025472413
+      Robot level-01_11: -169891883
+      Robot level-01_12: -731850401
+      Robot level-01_13: -964346762
+      Robot level-01_14: 675885175
+      Robot level-01_15: -791419306
+      Robot level-01_16: 477188101
+      Robot level-01_17: -1091772585
+      Robot level-01_18: 2137656378
+      Robot level-01_19: -2103021865
+      Robot level-01_2: 625886911
+      Robot level-01_20: 1584814496
+      Robot level-01_21: -449943060
+      Robot level-01_22: 2038700864
+      Robot level-01_23: -640120935
+      Robot level-01_24: 1398621245
+      Robot level-01_25: 612390983
+      Robot level-01_26: -1035685836
+      Robot level-01_27: -1264143272
+      Robot level-01_28: -1767744213
+      Robot level-01_29: -434828508
+      Robot level-01_3: 1503166088
+      Robot level-01_30: -35552254
+      Robot level-01_31: 484417707
+      Robot level-01_32: 695349393
+      Robot level-01_33: 1186989885
+      Robot level-01_34: 541617285
+      Robot level-01_35: -571967791
+      Robot level-01_36: 176524193
+      Robot level-01_37: 175398335
+      Robot level-01_38: 722982564
+      Robot level-01_39: 1435922200
+      Robot level-01_4: -2016156012
+      Robot level-01_40: -1475249937
+      Robot level-01_41: -2122973598
+      Robot level-01_42: 926037439
+      Robot level-01_43: -639767434
+      Robot level-01_44: 2114426206
+      Robot level-01_45: -325400927
+      Robot level-01_46: -723035387
+      Robot level-01_47: -626460906
+      Robot level-01_48: 720692308
+      Robot level-01_49: -700873387
+      Robot level-01_5: 2011777084
+      Robot level-01_50: -1943233303
+      Robot level-01_51: -127917230
+      Robot level-01_52: 1331533235
+      Robot level-01_53: -974474277
+      Robot level-01_54: 1883005068
+      Robot level-01_55: -1151248624
+      Robot level-01_56: 86293437
+      Robot level-01_6: -766976852
+      Robot level-01_7: -455400182
+      Robot level-01_8: -1377409826
+      Robot level-01_9: 1678568725
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
+  <string name="gcm_defaultSenderId" translatable="false">96148808000</string>
+  <string name="google_storage_bucket" translatable="false">leaderboard-box.firebasestorage.app</string>
+  <string name="project_id" translatable="false">leaderboard-box</string>
+  <string name="google_api_key" translatable="false">AIzaSyCjADxhxQvT1Mvit9p1PNVu9E569jdp9hw</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCjADxhxQvT1Mvit9p1PNVu9E569jdp9hw</string>
+  <string name="google_app_id" translatable="false">1:96148808000:android:0e983a6ea0ea49314c5aa5</string>
+</resources>

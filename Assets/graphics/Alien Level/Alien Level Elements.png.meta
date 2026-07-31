@@ -1,0 +1,660 @@
+fileFormatVersion: 2
+guid: d376f3bdc38fb4d729db09e1c2f8732e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alien Level Elements_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1444
+        width: 261
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb712166e86e4cae95a651a0c4b2b1a
+      internalID: 1081275926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1374
+        width: 643
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ed45b6af44843e283610785b8f4175
+      internalID: -2098152394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_3
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1472
+        width: 271
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71781fbf833534525986022f6684c71e
+      internalID: -2062564452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_4
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1549
+        width: 161
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9d59012c8194c0795b1bc5f590c152
+      internalID: -174690648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_5
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 1570
+        width: 188
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dbbc8788db243dea90d9d776bb57dc
+      internalID: 854085425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_6
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 1536
+        width: 651
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367acf27d39a0496cae576aa1ba43ac2
+      internalID: -187966985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_13
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 1079
+        width: 300
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987ce4a43b8f5431b98087697b060337
+      internalID: -912579162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_14
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 1083
+        width: 288
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb22c7fc1c2764a239337f84761f5a8b
+      internalID: -412198954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_15
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1059
+        width: 704
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c580896b69b40f6a60dadc843acafd
+      internalID: 348509345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_16
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 721
+        width: 369
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0563fbf442842eab8ff1a01005d861
+      internalID: 536891186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_17
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 1125
+        width: 208
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dba3a38faf5a4bcebcc58b838a730e2
+      internalID: 1236008443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_18
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 869
+        width: 704
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2c72964d2fe42e6a9bee9450bc5eb5
+      internalID: 441101431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_19
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 459
+        width: 333
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a7f507426864218be14dbaa142a43c
+      internalID: 711659715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_20
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 459
+        width: 221
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbaa7437b4694eb781ade584007d4bf
+      internalID: 1086498118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_21
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 459
+        width: 333
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321e415d36e8b4c98979851d557547d3
+      internalID: 878081929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_22
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 458
+        width: 221
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b6f97834d40407f8931ae263ba131f
+      internalID: 884901620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_23
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 102
+        width: 236
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fe3ee5fb2bf4fe1911a856d8365ea3
+      internalID: -530600263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_26
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 127
+        width: 918
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9f87c0bd1994e41be7c33cf491118a
+      internalID: 164616267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_32
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 40
+        width: 316
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869e2c148b708449eb5d0635160a2add
+      internalID: 1236455511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_37
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 86
+        width: 240
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2a454deb21c4b839b7cf56308b9a3a
+      internalID: -126404611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien Level Elements_45
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 65
+        width: 298
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebb777f1735c461db43849cecc18337
+      internalID: 1235941809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Alien Level Elements_0: 1081275926
+      Alien Level Elements_1: -2098152394
+      Alien Level Elements_10: 281080740
+      Alien Level Elements_11: -2007179391
+      Alien Level Elements_12: 290602558
+      Alien Level Elements_13: -912579162
+      Alien Level Elements_14: -412198954
+      Alien Level Elements_15: 348509345
+      Alien Level Elements_16: 536891186
+      Alien Level Elements_17: 1236008443
+      Alien Level Elements_18: 441101431
+      Alien Level Elements_19: 711659715
+      Alien Level Elements_2: 894992193
+      Alien Level Elements_20: 1086498118
+      Alien Level Elements_21: 878081929
+      Alien Level Elements_22: 884901620
+      Alien Level Elements_23: -530600263
+      Alien Level Elements_24: 967915683
+      Alien Level Elements_25: 104630763
+      Alien Level Elements_26: 164616267
+      Alien Level Elements_27: 77268049
+      Alien Level Elements_28: 728253219
+      Alien Level Elements_29: 302042241
+      Alien Level Elements_3: -2062564452
+      Alien Level Elements_30: 1909696737
+      Alien Level Elements_31: -1173263601
+      Alien Level Elements_32: 1236455511
+      Alien Level Elements_33: 1824516852
+      Alien Level Elements_34: 3869149
+      Alien Level Elements_35: -1761804604
+      Alien Level Elements_36: -139764028
+      Alien Level Elements_37: -126404611
+      Alien Level Elements_38: -132506250
+      Alien Level Elements_39: 1644926914
+      Alien Level Elements_4: -174690648
+      Alien Level Elements_40: -284860057
+      Alien Level Elements_41: 916141100
+      Alien Level Elements_42: -1617154086
+      Alien Level Elements_43: 892358624
+      Alien Level Elements_44: 1271207235
+      Alien Level Elements_45: 1235941809
+      Alien Level Elements_46: -983005773
+      Alien Level Elements_47: 764296484
+      Alien Level Elements_48: 1733791269
+      Alien Level Elements_49: -8962791
+      Alien Level Elements_5: 854085425
+      Alien Level Elements_50: -502712535
+      Alien Level Elements_51: 1216250713
+      Alien Level Elements_52: -114817115
+      Alien Level Elements_53: 109763758
+      Alien Level Elements_54: -2139543333
+      Alien Level Elements_55: 664511570
+      Alien Level Elements_56: 888889981
+      Alien Level Elements_57: -794870787
+      Alien Level Elements_58: 1998328982
+      Alien Level Elements_59: 2010963599
+      Alien Level Elements_6: -187966985
+      Alien Level Elements_60: 343368883
+      Alien Level Elements_61: 114130273
+      Alien Level Elements_62: -1606140411
+      Alien Level Elements_63: 91075251
+      Alien Level Elements_64: 1163153778
+      Alien Level Elements_65: 182879264
+      Alien Level Elements_66: -1688012688
+      Alien Level Elements_67: 156075373
+      Alien Level Elements_68: -1286231365
+      Alien Level Elements_69: -1245259381
+      Alien Level Elements_7: -2014539280
+      Alien Level Elements_70: -396119701
+      Alien Level Elements_71: -1355258845
+      Alien Level Elements_72: -547931533
+      Alien Level Elements_73: -1855532247
+      Alien Level Elements_74: -732266057
+      Alien Level Elements_75: 1239809746
+      Alien Level Elements_76: 1731711587
+      Alien Level Elements_77: -796498654
+      Alien Level Elements_78: -1230914045
+      Alien Level Elements_79: -1632864439
+      Alien Level Elements_8: 1036650239
+      Alien Level Elements_80: -311330600
+      Alien Level Elements_81: 642612530
+      Alien Level Elements_82: 835043310
+      Alien Level Elements_83: -1110189892
+      Alien Level Elements_9: -1610569448
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

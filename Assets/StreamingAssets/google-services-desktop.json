@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "96148808000",
+    "project_id": "leaderboard-box",
+    "storage_bucket": "leaderboard-box.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96148808000:android:0e983a6ea0ea49314c5aa5",
+        "android_client_info": {
+          "package_name": "com.SparklingInnovation.Box"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjADxhxQvT1Mvit9p1PNVu9E569jdp9hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
